@@ -19,4 +19,4 @@ export CEPS_API_KEY=sk_ceps_…
 
 As chaves são secretas: chame as APIs do servidor, nunca do navegador.
 
-Documentação: https://www.apizen.com.br/docs/inicio · SDKs: [sdk-js](https://github.com/apizenco/sdk-js) e [sdk-python](https://github.com/apizenco/sdk-python).
+Documentação: https://www.apizen.com.br/docs/inicio · SDKs: [sdk-js](https://github.com/apizenco/apizen-sdk-js) e [sdk-python](https://github.com/apizenco/apizen-sdk-python).

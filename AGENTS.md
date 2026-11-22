@@ -1,4 +1,4 @@
-# examples
+# apizen-examples
 
 ## Commits and comments
 
