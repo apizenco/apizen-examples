@@ -1,6 +1,6 @@
 # Exemplos da Apizen
 
-Exemplos prontos para as APIs da [Apizen](https://www.apizen.com.br): CNPJ (Receita Federal) e CEP (com código IBGE e coordenadas).
+Exemplos prontos para as APIs da [Apizen](https://apizen.com.br): CNPJ (Receita Federal) e CEP (com código IBGE e coordenadas).
 
 | Pasta | O quê |
 |---|---|
@@ -13,10 +13,10 @@ Exemplos prontos para as APIs da [Apizen](https://www.apizen.com.br): CNPJ (Rece
 Todos leem as chaves de variáveis de ambiente:
 
 ```bash
-export CNPJ_API_KEY=sk_cnpj_…   # crie grátis em https://www.apizen.com.br/entrar
+export CNPJ_API_KEY=sk_cnpj_…   # crie grátis em https://apizen.com.br/entrar
 export CEPS_API_KEY=sk_ceps_…
 ```
 
 As chaves são secretas: chame as APIs do servidor, nunca do navegador.
 
-Documentação: https://www.apizen.com.br/docs/inicio · SDKs: [sdk-js](https://github.com/apizenco/apizen-sdk-js) e [sdk-python](https://github.com/apizenco/apizen-sdk-python).
+Documentação: https://apizen.com.br/docs/inicio · SDKs: [sdk-js](https://github.com/apizenco/apizen-sdk-js) e [sdk-python](https://github.com/apizenco/apizen-sdk-python).

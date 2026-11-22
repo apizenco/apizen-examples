@@ -1,11 +1,11 @@
 # MCP
 
-A Apizen tem um servidor MCP em `https://www.apizen.com.br/mcp`, com as ferramentas `consultar_cnpj`, `nome_cnpj` e `consultar_cep`. As consultas usam a sua chave e contam na sua cota.
+A Apizen tem um servidor MCP em `https://apizen.com.br/mcp`, com as ferramentas `consultar_cnpj`, `nome_cnpj` e `consultar_cep`. As consultas usam a sua chave e contam na sua cota.
 
 ## Claude Code
 
 ```bash
-claude mcp add --transport http apizen https://www.apizen.com.br/mcp \
+claude mcp add --transport http apizen https://apizen.com.br/mcp \
   --header "Authorization: Bearer $CNPJ_API_KEY"
 ```
 
@@ -15,7 +15,7 @@ claude mcp add --transport http apizen https://www.apizen.com.br/mcp \
 {
   "mcpServers": {
     "apizen": {
-      "url": "https://www.apizen.com.br/mcp",
+      "url": "https://apizen.com.br/mcp",
       "headers": {
         "Authorization": "Bearer sk_cnpj_…",
         "X-Apizen-Cep-Key": "sk_ceps_…"
@@ -25,4 +25,4 @@ claude mcp add --transport http apizen https://www.apizen.com.br/mcp \
 }
 ```
 
-Mais em https://www.apizen.com.br/docs/mcp.
+Mais em https://apizen.com.br/docs/mcp.
