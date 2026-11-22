@@ -6,7 +6,7 @@ Exemplos prontos para as APIs da [Apizen](https://www.apizen.com.br): CNPJ (Rece
 |---|---|
 | [`curl/`](curl) | as chamadas no terminal |
 | [`node/`](node) | Node 18+ com `fetch`, sem dependências |
-| [`python/`](python) | Python 3.9+ só com a biblioteca padrão |
+| [`python/`](python) | Python 3.10+ só com a biblioteca padrão |
 | [`nextjs/`](nextjs) | uma rota do Next.js que consulta o CNPJ no servidor, sem expor a chave |
 | [`mcp/`](mcp) | a Apizen num assistente de IA (Claude Code, Cursor, Claude Desktop) |
 
